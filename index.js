@@ -1,14 +1,9 @@
-//let example = 'Dylan';
-const example = 'Dylan';
+let name = 'Dylan';
 
 /*
-override - overwrite example in case of using 'let'.
-not necessary to add let again like var which we used to use.
-
-but const = constant cannot be overwritten like let
+we can use typeof to identify data type - 'typepf variableName'
 */
 
-//example = 'Israel';
+console.log(typeof name);
 
-console.log(example);
 
