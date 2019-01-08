@@ -1,9 +1,10 @@
-let name = 'Dylan';
+let firstName = 'Dylan';
+let lastName = 'Holland'
 
-/*
-we can use typeof to identify data type - 'typepf variableName'
-*/
+//before ES6
+console.log(firstName + lastName);  //DylanHolland
+console.log(firstName + " " + lastName); //Dylan Holland
 
-console.log(typeof name);
-
+//after ES6
+console.log(`${firstName} ${lastName}`); //Dylan Holland
 
